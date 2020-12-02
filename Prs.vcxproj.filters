@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Fichiers Header map">
+      <UniqueIdentifier>{0ae64d18-b7cc-4186-aa7c-8ca1bcfecdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\FIchiers Header service">
+      <UniqueIdentifier>{81e760d8-c833-4a07-9312-cfabf0524f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\FIchiers map">
+      <UniqueIdentifier>{cb012e3f-5efd-43b0-b2ae-d89611a352db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\FIchiers service">
+      <UniqueIdentifier>{7ac7bec0-bc3f-4e37-b0f4-2054d87fbcfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FormMenu.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FormPersonnel.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FormClient.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FormCommande.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FormStatistique.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FormStock.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CLinferface.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_Adresse.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_Client.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_Commande.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_Date.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_Facture.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_Paiement.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_Personnel.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_Societe.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_Stats.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_map_TB_TVA.h">
+      <Filter>Fichiers d%27en-tête\Fichiers Header map</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_CAD.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_svc_GestionClient.h">
+      <Filter>Fichiers d%27en-tête\FIchiers Header service</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_svc_GestionCommande.h">
+      <Filter>Fichiers d%27en-tête\FIchiers Header service</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_svc_GestionPersonnel.h">
+      <Filter>Fichiers d%27en-tête\FIchiers Header service</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_svc_GestionStatistique.h">
+      <Filter>Fichiers d%27en-tête\FIchiers Header service</Filter>
+    </ClInclude>
+    <ClInclude Include="CL_svc_GestionStock.h">
+      <Filter>Fichiers d%27en-tête\FIchiers Header service</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Prs.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FormMenu.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinferface.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_CAD.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_TVA.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_Adresse.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_Client.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_Commande.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_Date.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_Facture.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_Paiement.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_Personnel.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_Societe.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_map_TB_Stats.cpp">
+      <Filter>Fichiers sources\FIchiers map</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_svc_GestionClient.cpp">
+      <Filter>Fichiers sources\FIchiers service</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_svc_GestionCommande.cpp">
+      <Filter>Fichiers sources\FIchiers service</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_svc_GestionPersonnel.cpp">
+      <Filter>Fichiers sources\FIchiers service</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_svc_GestionStatistique.cpp">
+      <Filter>Fichiers sources\FIchiers service</Filter>
+    </ClCompile>
+    <ClCompile Include="CL_svc_GestionStock.cpp">
+      <Filter>Fichiers sources\FIchiers service</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
